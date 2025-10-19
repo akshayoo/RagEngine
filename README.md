@@ -14,7 +14,6 @@ Features
 
 ------------------------
 
-Tech Stack
 - Frontend: HTML, CSS, JS  
 - Backend: Python (Flask)  
 - Embeddings: `all-MiniLM-L6-v2`  
