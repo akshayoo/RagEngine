@@ -48,7 +48,7 @@ Installation and running
 6. Run the flask app
      uvicorn main:app --reload
 
-7. Open the main.html
+7. Open the chat.html
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
