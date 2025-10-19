@@ -1,6 +1,6 @@
-rag-engine
+ragEngine
 
-rag-engine is a Retrieval-Augmented Generation (RAG) based chatbot that answers user queries using information from your own documents.  
+ragEngine is a Retrieval-Augmented Generation (RAG) based chatbot that answers user queries using information from your own documents.  
 It combines FAISS, MiniLM embeddings, and Mistral-7B Instruct to deliver context-aware responses through a Flask-powered web interface.
 
 -----------------------
@@ -50,12 +50,12 @@ Installation and running
 
 7. Open the main.html
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Pull requests and suggestions are welcome!
 If you find bugs or performance issues, feel free to open an issue.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contact
 Author: Akshay
