@@ -22,7 +22,6 @@ emb_model = SentenceTransformer(embedding_model, local_files_only=True)
 loaded_models = {}
 
 def load_model(model_key):
-    """Loads a model only once and caches it."""
     if model_key in loaded_models:
         return loaded_models[model_key]
 
@@ -37,7 +36,6 @@ def load_model(model_key):
 
 
 def get_context(query):
-    """Retrieves context from FAISS index."""
     if not os.path.exists(doc_index) or not os.path.exists(doc_split):
         return "No document index found."
     
@@ -52,7 +50,6 @@ def get_context(query):
 
 
 def generate_answer(model_key, query):
-    """Runs the RAG process."""
     try:
         pipe = load_model(model_key)
         context = get_context(query)
@@ -78,3 +75,4 @@ def generate_answer(model_key, query):
     finally:
         torch.cuda.empty_cache()
         gc.collect()
+
