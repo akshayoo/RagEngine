@@ -1,10 +1,11 @@
-torch 2.0.0
-transformers 4.35.0
-sentence-transformers 2.2.2
-faiss-cpu 1.7.4
-langchain 0.1.0
-numpy 1.25.0
-pickle 1.0.2
-flask 3.0.0
-psutil 5.9.5
+torch==2.0.0
+transformers==4.35.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+langchain==0.1.0
+numpy==1.25.0
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+psutil==5.9.5
+
 
