@@ -15,7 +15,7 @@ Features
 ------------------------
 
 - Frontend: HTML, CSS, JS  
-- Backend: Python (Flask)  
+- Backend: Python (FastApi) 
 - Embeddings: `all-MiniLM-L6-v2`  
 - Vector Store: FAISS  
 - Model: `mistral-7b-instruct-v0.1-bnb-4bit`
